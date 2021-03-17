@@ -1,7 +1,10 @@
 # SISNet
 Semantic Scene Completion via Integrating Instances and Scene in-the-Loop (CVPR 2021)
 
-In this repository, we provide SISNet model implementation (with Pytorch) as well as data preparation, training and evaluation scripts on NYU Depth V2, NYUCAD and SUNCG_ RGBD.
+In this repository, we provide SISNet model implementation (with Pytorch) as well as data preparation, training and evaluation scripts on NYU Depth V2, NYUCAD and SUNCG_RGBD.
+
+![image](https://github.com/yjcaimeow/SISNet/blob/main/figs/nyu_vis.png)
+
 ## Getting Started
 ### Set up
 Clone the repository:
@@ -99,3 +102,4 @@ Finally, the project folder is organized as follows.
     │ ├── ...
 
 ### Results on NYU Depth v2 Benchmark
+![image](https://github.com/yjcaimeow/SISNet/blob/main/figs/nyu_res.png)
