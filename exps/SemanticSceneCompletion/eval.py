@@ -10,7 +10,7 @@ import torch.nn as nn
 import torch.multiprocessing as mp
 
 from config import config
-#import sys
+import sys
 #sys.path.append('/mnt/lustre/liushinan/cyj/start/furnace')
 from utils.pyt_utils import ensure_dir, link_file, load_model, parse_devices
 from utils.visualize import print_iou, show_img
